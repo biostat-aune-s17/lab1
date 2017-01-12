@@ -178,9 +178,11 @@ demo.matrix[c(1,2,5),2]
 # First, let?s set the default working directory to the folder containing the birds.csv file using the setwd() 
 # function, as follows (but note that the path specified should correspond to where the file is located on your 
 # machine):
-setwd(?c:/biostats/labs/lab1/?)
+
+#setwd('c:/biostats/labs/lab1/')
 # Next, read in the birds.csv dataset:
-birds<-read.csv(?birds.csv?,header=TRUE)
+birds<-read.csv('birds.csv',header=TRUE)
+load('./data/birds.Rdata')
 # Because the variable types are mixed in this incoming data set (containing both numeric and character fields), 
 # the data structure will be classed as a data frame automatically.
 # Take a look at the structure of the dataset with:
