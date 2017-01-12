@@ -181,7 +181,7 @@ demo.matrix[c(1,2,5),2]
 
 #setwd('c:/biostats/labs/lab1/')
 # Next, read in the birds.csv dataset:
-birds<-read.csv('birds.csv',header=TRUE)
+# birds<-read.csv('birds.csv',header=TRUE)
 load('./data/birds.Rdata')
 # Because the variable types are mixed in this incoming data set (containing both numeric and character fields), 
 # the data structure will be classed as a data frame automatically.
